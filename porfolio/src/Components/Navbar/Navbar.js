@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Slide from 'react-reveal/Slide';
 // import { NavLink } from "react-router-dom"
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
     <>
       <nav className='navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark'>
         <div className='container align-middle'>
-          <h2 className='px-4 '> Farouk<span><i class="fas fa-circle"></i></span>Kisuule </h2>
+          <h2 className='px-4 '> Farouk<span><strong className="dot">.</strong></span></h2>
 
           <div>
             <ul className='navbar-nav mr-auto '>

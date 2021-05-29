@@ -1,0 +1,18 @@
+.about{
+    color : white;
+}
+
+.aboutMe{
+    color : white;
+}
+
+.middle {
+  margin-top : 150px; 
+  /* display : grid; */
+}
+
+.upbox {
+    /* box-shadow: inset 0 -5px 5px -5px #333,
+    inset -5px 0 5px -5px #333, 
+    inset 5px 0 5px -5px #333; */
+}
