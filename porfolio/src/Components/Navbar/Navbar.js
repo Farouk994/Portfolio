@@ -1,38 +1,42 @@
 import React from "react";
 import "./Navbar.css";
-import Slide from 'react-reveal/Slide';
+
 // import { NavLink } from "react-router-dom"
 
 function Navbar() {
+  const styler = {
+    color : "white"
+  }
   return (
     <>
-      <nav className='navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark'>
+      <nav className='navbar navbar-icon-top navbar-expand-lg'>
         <div className='container align-middle'>
-          <h2 className='px-4 '> Farouk<span><strong className="dot">.</strong></span></h2>
+          <h2 className='px-4 '><span><strong className="dot">.</strong>me( )</span></h2>
 
           <div>
-            <ul className='navbar-nav mr-auto '>
-              <li class='nav-item'>
-                <a class='nav-link active' aria-current='page' href='/'>
+            <ul className='navbar-nav mr-auto listy'>
+              <li class='nav-item' style={styler}>
+                <a className='nav-link active item' aria-current='page' id="item" href='/'>
                   Home
                 </a>
               </li>
-              <li class='nav-item'>
-                <a class='nav-link active' href='/'>
+              <li class='nav-item' style={styler}>
+                <a className='nav-link active item' aria-current='page' id="item" href='/'>
                   About
                 </a>
               </li>
-              <li class='nav-item'>
-                <a class='nav-link active' href='/'>
+              <li className='nav-item'>
+                <a className='nav-link active' href='/' id="item">
                   Skills
                 </a>
               </li>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <a
-                  class='nav-link active'
+                  className='nav-link active'
                   href='/'
                   tabindex='-1'
                 //   aria-active='true'
+                id="item"
                 >
                   Contact
                 </a>

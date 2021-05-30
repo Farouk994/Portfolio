@@ -6,3 +6,15 @@ h2{
     color :crimson;
     size : 50px;
 }
+
+ li{
+    color : white;
+}
+
+.listy {
+     color : white;
+}
+
+#item {
+  color : white;
+}

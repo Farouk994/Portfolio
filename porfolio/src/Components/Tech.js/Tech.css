@@ -1,0 +1,96 @@
+.info{
+   color : white; 
+}
+
+.lang{
+    color :rgb(131, 202, 17);
+}
+
+
+.icon {
+    color : white;
+    font-size:35px;
+}
+
+.float ul li {
+    position : float-right;
+    padding:25px;
+    text-decoration:none !important;
+}
+
+body {
+    font-size : 20px;
+}
+
+#name {
+    color : white;
+    float : left;
+    padding : 15px;
+    margin-top:-24px;
+}
+
+.wrapper {
+    margin : 25px;
+    text-align:left;
+    /* border:1px solid red; */
+    padding-top : 5px;
+}
+
+.skill{
+    color:white;
+}
+
+.newWrapper {
+    /* border : 1px solid red; */
+    padding : 15px;
+    margin : 15px;
+    margin-top:5px;
+    text-align:left;
+}
+
+#tools {
+  color : white;
+  text-align:left;
+}
+
+/* .container {margin-top: 20px;width: 50%;} */
+.container{
+    margin-top:20px;
+    width:505;
+}
+
+.progress {
+  height: 30px;
+  border-radius: 50px;
+  background-color: #474545;
+  margin-bottom: 18px;
+}
+.progress-bar {
+  background-color: #4c51e0;
+}
+.progress-bar span {
+  font-size: 15px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.title {
+  color: #fff;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5px;
+  background-color: #474545;
+  border-radius: 50px;
+  margin-left: 5px;
+  /* margin:5px; */
+} 
+
+
+@keyframes blink{
+	0%{
+		color: black;
+	}100%{
+		color: white;
+	}
+}
+

@@ -16,3 +16,18 @@
     inset -5px 0 5px -5px #333, 
     inset 5px 0 5px -5px #333; */
 }
+
+.image {
+    /* border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 20px black inset; */
+}
+
+header{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
