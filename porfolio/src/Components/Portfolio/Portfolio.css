@@ -1,0 +1,28 @@
+.portfolio {
+    color : white;
+    font-size:22px;
+    /* margin-left:60px; */
+}
+
+.big {
+    /* border:1px solid red; */
+    margin:30px;
+}
+
+.port {
+    text-align : left;
+    /* border:1px solid red; */
+}
+
+.boxy{
+  /* border: 1px solid yellow; */
+}
+
+.fix-img{
+    /* width:150px; */
+    border: 1px solid #ddd;
+}
+
+.buttons{
+    padding : 15px;
+}

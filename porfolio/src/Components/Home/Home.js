@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./Home.css";
 import Slide from "react-reveal/Slide";
@@ -10,10 +11,12 @@ const Home = () => {
           <div className='row upbox'>
             <Slide left>
               <div className='col-lg-6 middle'>
-                <h1 className='about'>farouk.is( )</h1>
+                <h1 className='about'>
+                  <em className="slide">f</em>arouk<strong className="strong">.is( )</strong>
+                </h1>
                 <p className='aboutMe'>
-                  Full Stack Web Developer specialized in both
-                  front-end and back-end.
+                 <span>/**</span>  Full Stack Web Developer specialized in both front-end and
+                  back-end. */
                   <br></br>
                   <br></br>
                   {/* <div class='btn-group' role='group' aria-label='Basic example'> */}
@@ -39,7 +42,6 @@ const Home = () => {
           <hr classNme='mt-0'></hr>
         </div>
       </header>
-      
     </>
   );
 };

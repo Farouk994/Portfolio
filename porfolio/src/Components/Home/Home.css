@@ -3,12 +3,20 @@
 }
 
 .aboutMe{
-    color : white;
+    color : rgba(255, 255, 255, 0.308);
 }
 
 .middle {
   margin-top : 150px; 
   /* display : grid; */
+}
+
+.strong {
+    color:  #4c51e0;
+}
+
+.slide {
+    font-size:75px;
 }
 
 .upbox {
