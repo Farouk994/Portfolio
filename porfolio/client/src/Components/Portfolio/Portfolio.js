@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Portfolio.css";
+import "./Portfolio.scss";
 import Slide from "react-reveal/Slide";
 // import Roll from "react-reveal/Roll";
 
@@ -24,12 +26,12 @@ const Portfolio = () => {
               <p>
                 Splittish is a web platform that enables users to keep track of
                 their finances and expenditure from anywhere and also inviting
-                their friends to join in as well
+                new friends to join in as well
               </p>
             </strong>
             <ul>
               <li>
-                a database for finanace operations to manage their wallets and
+                a database for finance operations to manage their wallets and
                 have a rough idea of how much users spend on a monthly basis
               </li>
               <li>
@@ -37,7 +39,10 @@ const Portfolio = () => {
                 wallet to keep track of expenses.
               </li>
             </ul>
-            <button>More Details...</button>
+            <div class='content'>
+              <div class='buttoon'><span className="robo">More</span></div>
+            </div>
+            
             <br></br>
           </Slide>
         </div>
@@ -65,46 +70,45 @@ const Portfolio = () => {
               GAIDO<strong className='strong'>.work( )</strong>
             </h2>
             <p className='lead '>
-              Keep track of your finances and SAVE UP with all your collegues
-              and friends
+              Plan your next vacation destination by searching for your best
+              cuisines and filtering out your best categories.
             </p>
             <strong>
               <p>
-                Splittish is a web platform that enables users to keep track of
-                their finances and expenditure from anywhere and also inviting
-                their friends to join in as well
+                This is a web application for searching for restaurants in any
+                given area and also allows the user to view ratings and also
+                grant user access in filtering out restaurants according to
+                their
               </p>
             </strong>
             <ul>
-              <li>
-                a database for finanace operations to manage their wallets and
-                have a rough idea of how much users spend on a monthly basis
-              </li>
-              <li>
-                a marketplace for end-customers to plan for events by having one
-                wallet to keep track of expenses.
-              </li>
+              <li>Responsive web applications</li>
+              <li>Explore new destinations and culture through cuisines</li>
             </ul>
-            <button>More Details...</button>
+            <div class='content'>
+              <div class='buttoon'><span className="robo">More</span></div>
+            </div>
+            <br></br>
+            <br></br>
+            <hr></hr>
           </Slide>
-          <br></br>
         </div>
 
         <Slide right cascade>
-        <div className='col-md-6 boxy'>
-          {/* <img src="./split.jpg" alt="" className="fix-img"></img> */}
-          <img
-            src='./gaido.JPEG'
-            className='img-fluid'
-            // alt='Responsive image'
-          ></img>
-          <br></br>
-          <div className='buttons btn-group'>
-            <button>Javascript</button>
-            <button>MySQL</button>
-            <button>Nodejs</button>
+          <div className='col-md-6 boxy'>
+            {/* <img src="./split.jpg" alt="" className="fix-img"></img> */}
+            <img
+              src='./gaido.JPEG'
+              className='img-fluid'
+              // alt='Responsive image'
+            ></img>
+            <br></br>
+            <div className='buttons btn-group'>
+              <button>Javascript</button>
+              <button>MySQL</button>
+              <button>Nodejs</button>
+            </div>
           </div>
-        </div>
         </Slide>
       </div>
     </div>
