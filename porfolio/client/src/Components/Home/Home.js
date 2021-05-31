@@ -12,7 +12,7 @@ const Home = () => {
             <Slide left>
               <div className='col-lg-6 middle'>
                 <h1 className='about'>
-                  <em className="slide">f</em>arouk<strong className="strong">.is( )</strong>
+                  <em className="slide">f</em>arouk<strong className="strong">.is()</strong>
                 </h1>
                 <p className='aboutMe'>
                  <span>/**</span>  Full Stack Web Developer specialized in both front-end and
@@ -20,9 +20,10 @@ const Home = () => {
                   <br></br>
                   <br></br>
                   {/* <div class='btn-group' role='group' aria-label='Basic example'> */}
-                  <button type='button' class='btn btn-outline-success'>
+                  {/* <button type='button' class='btn btn-outline-success'>
                     Portfolio
-                  </button>
+                  </button> */}
+                  <a href="/"><button className=" button-3 px-5">View</button></a>
                   {/* <button type='button' class='btn btn-primary'>
                 Middle
               </button>

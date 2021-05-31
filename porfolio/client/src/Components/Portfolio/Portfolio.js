@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Portfolio.css";
-import Fade from "react-reveal/Fade";
-import Roll from "react-reveal/Roll";
+import Slide from "react-reveal/Slide";
+// import Roll from "react-reveal/Roll";
 
 const Portfolio = () => {
   return (
@@ -11,7 +12,7 @@ const Portfolio = () => {
       </h1>
       <div className='row big'>
         <div className='col-md-6 port '>
-          <Fade bottom cascade>
+          <Slide bottom cascade>
             <h2>
               Splittish<strong className='strong'>.work( )</strong>
             </h2>
@@ -38,9 +39,9 @@ const Portfolio = () => {
             </ul>
             <button>More Details...</button>
             <br></br>
-          </Fade>
+          </Slide>
         </div>
-        <Roll right cascade>
+        <Slide right cascade>
           <div className='col-md-6 boxy'>
             {/* <img src="./split.jpg" alt="" className="fix-img"></img> */}
             <img
@@ -55,11 +56,11 @@ const Portfolio = () => {
               <button>Nodejs</button>
             </div>
           </div>
-        </Roll>
+        </Slide>
       </div>
       <div className='row big'>
         <div className='col-md-6 port '>
-          <Fade bottom cascade>
+          <Slide bottom cascade>
             <h2>
               GAIDO<strong className='strong'>.work( )</strong>
             </h2>
@@ -85,11 +86,11 @@ const Portfolio = () => {
               </li>
             </ul>
             <button>More Details...</button>
-          </Fade>
+          </Slide>
           <br></br>
         </div>
 
-        <Roll right cascade>
+        <Slide right cascade>
         <div className='col-md-6 boxy'>
           {/* <img src="./split.jpg" alt="" className="fix-img"></img> */}
           <img
@@ -104,7 +105,7 @@ const Portfolio = () => {
             <button>Nodejs</button>
           </div>
         </div>
-        </Roll>
+        </Slide>
       </div>
     </div>
   );

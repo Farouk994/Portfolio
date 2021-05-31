@@ -31,6 +31,22 @@
   box-shadow: 5px 10px 20px black inset; */
 }
 
+.button-3 {
+    border: 2px solid #3c73ff;
+    background-color: Transparent;
+    /* width:100px; */
+    /* padding-left:25px; */
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+    font-family: 'Press Start 2P', cursive;
+    font-size:27px;
+  }
+  .button-3:hover {
+    box-shadow: 8px 8px#6165dd;
+    transition: .3s;
+  }
+  
 header{
     min-height: 80vh;
     display: flex;
