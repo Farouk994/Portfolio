@@ -15,7 +15,7 @@ const Tech = () => {
         <div className='skill col-md-12'>
           <div class='wrapper'>
           <Roll left cascade>
-            <h1>Skills</h1>
+            <h1>`Skills`</h1>
             <span class='title'>JAVASCRIPT</span>
             <div class='progress'>
               <div
