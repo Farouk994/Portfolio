@@ -85,6 +85,37 @@ body {
   /* margin:5px; */
 } 
 
+.red {
+  /* border : 1px solid green; */
+  width : 100%;
+  padding : 55px;
+}
+
+.col1{
+  /* border : 1px solid red; */
+  text-align : right;
+}
+
+.intro {
+  color : white;
+  margin-left:0;
+}
+
+.wider {
+  /* border : 1px solid orange; */
+  padding : 15px;
+  margin-top:0;
+}
+
+.col2{
+  /* border : 1px solid red; */
+  text-align : left;
+}
+
+.passion{
+  color : white;
+}
+
 
 @keyframes blink{
 	0%{

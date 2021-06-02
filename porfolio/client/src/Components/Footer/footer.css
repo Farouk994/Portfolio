@@ -1,15 +1,12 @@
 /* BEGIN FOOTER */
 .footer {
-  /* Positioning for sticky footer */
-  position: -webkit-sticky; 
-    bottom: 0; 
-  /* Box-model */
-    width: 100%;
-    /* height: 60px;  */
-  /* Visual */
-  /* grid-row-start: 2;
-  grid-row-end: 3; */
-  padding: 20px;
+   /* Positioning for sticky footer */
+   position: absolute;
+   bottom: 0;
+   /* Box-model */
+   width: 100%;
+   height: 60px;
+   /* Visual */
 }
 .text-muted-footer {
   /* Box-model */

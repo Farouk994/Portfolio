@@ -1,24 +1,21 @@
+/* eslint-disable no-undef */
 import React from "react";
 import "./Tech.css";
 import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
+import About from "./About"
 
 const Tech = () => {
   return (
     <div className="">
-      <h1 className='lang' id=''>
-      <strong className='strong'>.about( )</strong>
-      </h1>
-      <p className='info'>
-        I am a Full Stack Web Developer specialized in both front-end and
-        back-end.
-      </p>
-      <div className='cardly'></div>
-
+  
+       <About/>
+    
       <div className='newWrapper row'>
-        <div className='skill col-md-6'>
+        <div className='skill col-md-12'>
           <div class='wrapper'>
           <Roll left cascade>
+            <h1>Skills</h1>
             <span class='title'>JAVASCRIPT</span>
             <div class='progress'>
               <div
@@ -41,11 +38,26 @@ const Tech = () => {
                 aria-valuenow='40'
                 aria-valuemin='0'
                 aria-valuemax='100'
-                style={{ width: "90%" }}
+                style={{ width: "83%" }}
               >
-                <span>90%</span>
+                <span>83%</span>
               </div>
             </div>
+
+            <span class='title'>REACT</span>
+            <div class='progress'>
+              <div
+                class='progress-bar'
+                role='progressbar'
+                aria-valuenow='40'
+                aria-valuemin='0'
+                aria-valuemax='100'
+                style={{ width: "65%" }}
+              >
+                <span>65%</span>
+              </div>
+            </div>
+
 
             <span class='title'>NODE / EXPRESS</span>
             <div class='progress'>
@@ -91,7 +103,7 @@ const Tech = () => {
           </Roll>
           </div>
         </div>
-        <div className='col-md-5'>
+        <div className='container'>
         <Fade bottom cascade>
           <p id='tools'>
             My current toolset includes Javascript Language, Nodejs, Express,
