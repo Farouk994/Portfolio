@@ -9,11 +9,13 @@ import Slide from "react-reveal/Slide";
 const Portfolio = () => {
   return (
     <div class='portfolio container'>
-      <h1>
-        <strong className='strong'>.work( )</strong>
-      </h1>
+      {/* <h1> */}
+        {/* <strong className='strong'>.work( )</strong> */}
+      {/* </h1> */}
+      <br></br>
+      <br></br>
       <div className='row big'>
-        <div className='col-md-6 port '>
+        <div className='col-md-12 port '>
           <Slide bottom cascade>
             <h2>
               Splittish<strong className='strong'>.work( )</strong>
@@ -22,13 +24,21 @@ const Portfolio = () => {
               Keep track of your finances and SAVE UP with all your collegues
               and friends
             </p>
-            <strong>
+            <h3>Description</h3>
+            <div>
               <p>
-                Splittish is a web platform that enables users to keep track of
-                their finances and expenditure from anywhere and also inviting
-                new friends to join in as well
+                <em>
+                  <strong>
+                    ' Splittish is a cost sharing app that helps its users to
+                    monitor their finances by allowing them to split bills with
+                    friends, family, roommates etc. A new wallet can be created,
+                    an expense added and the group can decide how to split the
+                    bill. The app also allows its users to track their expenses,
+                    spending and budgeting.'
+                  </strong>
+                </em>
               </p>
-            </strong>
+            </div>
             <ul>
               <li>
                 a database for finance operations to manage their wallets and
@@ -39,15 +49,31 @@ const Portfolio = () => {
                 wallet to keep track of expenses.
               </li>
             </ul>
+            <h3>Technologies</h3>
+            <ul>
+              <li>Bootstrap/CSS3/HTML5</li>
+              <li>JQuery</li>
+              <li>Git/GitHub</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Express-session</li>
+              <li>Bcrypt.js</li>
+              <li>Handlebars</li>
+              <li>Heroku</li>
+              <li>MySQL</li>
+              <li>Sequelize ORM</li>
+            </ul>
             <div class='content'>
-              <div class='buttoon'><span className="robo">More</span></div>
+              <div class='buttoon'>
+                <span className='robo'>Link</span>
+              </div>
             </div>
-            
+
             <br></br>
           </Slide>
         </div>
         <Slide right cascade>
-          <div className='col-md-6 boxy'>
+          <div className='col boxy'>
             {/* <img src="./split.jpg" alt="" className="fix-img"></img> */}
             <img
               src='./split.jpg'
@@ -55,38 +81,58 @@ const Portfolio = () => {
               alt='Responsive image'
             ></img>
             <br></br>
-            <div className='buttons btn-group'>
+            {/* <div className='buttons btn-group'>
               <button>Javascript</button>
               <button>MySQL</button>
               <button>Nodejs</button>
-            </div>
+            </div> */}
           </div>
         </Slide>
       </div>
       <div className='row big'>
-        <div className='col-md-6 port '>
+        <div className='col-md-12 port '>
           <Slide bottom cascade>
             <h2>
               GAIDO<strong className='strong'>.work( )</strong>
             </h2>
             <p className='lead '>
-              Plan your next vacation destination by searching for your best
-              cuisines and filtering out your best categories.
+              Keep track of your finances and SAVE UP with all your collegues
+              and friends
             </p>
-            <strong>
+            <h3>Description</h3>
+            <div>
               <p>
-                This is a web application for searching for restaurants in any
-                given area and also allows the user to view ratings and also
-                grant user access in filtering out restaurants according to
-                their
+                <em>
+                  <strong>
+                    ' Gaido is a restaurant app that helps its users to
+                    locate their favourite restaurants by allowing them to filter and rate different restaurants 
+                    they would like to visit in different cities. A user can add their location to 
+                    the app and they will get all restaurants in the area around them.'
+                  </strong>
+                </em>
               </p>
-            </strong>
+            </div>
             <ul>
-              <li>Responsive web applications</li>
-              <li>Explore new destinations and culture through cuisines</li>
+              <li>
+               Used Zomato API for getting restaurants and also filter according to cities,cuisines, categories and many more.
+
+              </li>
+              <li>
+               Enables travelers to locate restaurants with ease by enabling them choose from a wide selection
+              </li>
+            </ul>
+            <h3>Technologies</h3>
+            <ul>
+              <li>Bootstrap/CSS3/HTML5</li>
+              <li>JQuery</li>
+              <li>Git/GitHub</li>
+              <li>Heroku</li>
+              <li>APIs</li>
             </ul>
             <div class='content'>
-              <div class='buttoon'><span className="robo">More</span></div>
+              <div class='buttoon'>
+                <span className='robo'>Link</span>
+              </div>
             </div>
             <br></br>
             <br></br>
@@ -95,7 +141,7 @@ const Portfolio = () => {
         </div>
 
         <Slide right cascade>
-          <div className='col-md-6 boxy'>
+          <div className='col boxy'>
             {/* <img src="./split.jpg" alt="" className="fix-img"></img> */}
             <img
               src='./gaido.JPEG'
@@ -103,11 +149,11 @@ const Portfolio = () => {
               // alt='Responsive image'
             ></img>
             <br></br>
-            <div className='buttons btn-group'>
+            {/* <div className='buttons btn-group'>
               <button>Javascript</button>
-              <button>MySQL</button>
-              <button>Nodejs</button>
-            </div>
+              <button>JQUERY</button>
+              <button>HTML/CSS</button>
+            </div> */}
           </div>
         </Slide>
       </div>
