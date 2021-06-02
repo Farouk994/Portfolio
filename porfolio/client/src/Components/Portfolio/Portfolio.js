@@ -4,7 +4,6 @@ import React from "react";
 import "./Portfolio.css";
 import "./Portfolio.scss";
 import Slide from "react-reveal/Slide";
-// import { NavLink } from "react-router-dom"
 // import Roll from "react-reveal/Roll";
 
 const Portfolio = () => {
