@@ -1,0 +1,16 @@
+/* BEGIN FOOTER */
+.footer {
+   /* Positioning for sticky footer */
+   position: absolute;
+   bottom: 0;
+   /* Box-model */
+   width: 100%;
+   height: 60px;
+   /* Visual */
+}
+.text-muted-footer {
+  /* Box-model */
+  margin-top: 15px;
+  /* Typography */
+  color: #ffffff;
+}
