@@ -65,7 +65,7 @@ const Portfolio = () => {
             </ul>
             <div class='content'>
               <div class='buttoon'>
-                <span className='robo'>Link</span>
+                <span className='robo'><a href="https://project2nashfaroukroy.herokuapp.com/">Link</a></span>
               </div>
             </div>
 
@@ -131,7 +131,7 @@ const Portfolio = () => {
             </ul>
             <div class='content'>
               <div class='buttoon'>
-                <span className='robo'>Link</span>
+                <span className='robo'><a href="https://ezkenneth.github.io/GAIDO/">Link</a></span>
               </div>
             </div>
             <br></br>
