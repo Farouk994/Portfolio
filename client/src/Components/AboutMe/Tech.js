@@ -110,15 +110,6 @@ const Tech = () => {
             React, Redux, and all the other various frameworks, libraries and
             technologies related to them.
           </p>
-          <ul>
-            <li>Responsive Web Design</li>
-            <li>leading/co-developing the back-end and front-end,</li>
-            <li>setting up the CI/CD,</li>
-            <li>mentoring the team</li>
-            <li>estimating tasks</li>
-            <li>researching possible techs</li>
-            <li>leading, launching and monitoring the project</li>
-          </ul>
           </Fade>
         </div>
       </div>

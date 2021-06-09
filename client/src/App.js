@@ -4,7 +4,9 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Tech from "./Components/AboutMe/Tech";
 import Portfolio from "./Components/Portfolio/Portfolio";
-// import Footer from "./Components/Footer/footer";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/footer";
+
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/about' component={Tech} />
         <Route path='/work' component={Portfolio} />
+        <Route path='/contact' component={Contact} />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
       <br></br>
     </div>
   );

@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className='col-md-12 port '>
           <Slide bottom cascade>
             <h2>
-              Splittish<strong className='strong'>.work( )</strong>
+              Splittish<strong className='strong'>()</strong>
             </h2>
             <p className='lead '>
               Keep track of your finances and SAVE UP with all your collegues
@@ -90,10 +90,10 @@ const Portfolio = () => {
         </Slide>
       </div>
       <div className='row big'>
-        <div className='col-md-12 port '>
+        <div className='col-lg-12 port '>
           <Slide bottom cascade>
             <h2>
-              GAIDO<strong className='strong'>.work( )</strong>
+              GAIDO<strong className='strong'>()</strong>
             </h2>
             <p className='lead '>
               Keep track of your finances and SAVE UP with all your collegues

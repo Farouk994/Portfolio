@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
+import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -7,13 +8,13 @@ function Navbar() {
     color: "white",
   };
 
-  const activeStyle={
-    color: "white"
-  }
+  const activeStyle = {
+    color: "white",
+  };
   return (
     <>
-      <nav className='navbar navbar-icon-top navbar-expand-lg'>
-        <button
+      <nav className='navbar navbar-expand-md'>
+        {/* <button
           className='navbar-toggler'
           type='button'
           data-toggle='collapse'
@@ -21,23 +22,36 @@ function Navbar() {
           aria-controls='navbarSupportedContent'
           aria-expanded='false'
           aria-label='Toggle navigation'
-        >
+         >
           <span className='navbar-toggler-icon'></span>
+        </button> */}
+        <h1 className='px-4 topper'>
+          <span className='glitch' data-text='Kisuule'>
+            <NavLink activeStyle={activeStyle} exact to='/'>
+              Farouk
+            </NavLink>
+          </span>
+        </h1>
+        <div className="navbutton">
+        <button
+          className='navbar-toggler nn'
+          type='button'
+          data-toggle='collapse'
+          data-target='#navbarCollapse'
+          aria-controls='navbarCollapse'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span class='navbar-toggler-icon' style={{ color : "white"}}></span>
+          <i class="fas fa-terminal"></i>
         </button>
-        <div className='container align-middle'>
-          <h1 className='px-4 topper'>
-            <span className='glitch' data-text='Kisuule'>
-              <NavLink activeStyle={activeStyle} exact to="/">
-                Farouk
-              </NavLink>
-            </span>
-          </h1>
-
-          <div>
-            <ul className='navbar-nav mr-auto listy'>
+        </div>
+        <div className=' align-middle'>
+          <div className='collapse navbar-collapse' id='navbarCollapse'>
+            <ul className='navbar-nav mr-auto px-5 listy'>
               <li class='nav-item' style={styler}>
                 <NavLink
-                activeStyle={activeStyle}
+                  activeStyle={activeStyle}
                   className='nav-link active item'
                   aria-current='page'
                   id='item'
@@ -48,7 +62,7 @@ function Navbar() {
               </li>
               <li class='nav-item' style={styler}>
                 <NavLink
-                activeStyle={activeStyle}
+                  activeStyle={activeStyle}
                   className='nav-link active item'
                   aria-current='page'
                   id='item'
@@ -58,15 +72,20 @@ function Navbar() {
                 </NavLink>
               </li>
               <li className='nav-item'>
-                <NavLink className='nav-link active' activeStyle={activeStyle} to='/work' id='item'>
+                <NavLink
+                  className='nav-link active'
+                  activeStyle={activeStyle}
+                  to='/work'
+                  id='item'
+                >
                   .Work<span id='para'>()</span>
                 </NavLink>
               </li>
               <li className='nav-item'>
                 <NavLink
-                activeStyle={activeStyle}
+                  activeStyle={activeStyle}
                   className='nav-link active'
-                  to='/'
+                  to='/contact'
                   tabindex='-1'
                   //   aria-active='true'
                   id='item'
